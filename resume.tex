@@ -1,0 +1,136 @@
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[
+  margin=0.9in,
+  % includefoot,
+  footskip=30pt,
+]{geometry}
+\usepackage{layout}
+\usepackage{titlesec}
+% tune the spacing between titles in here
+\titlespacing{\section}{0pt}{20pt plus 4pt minus 2pt}{10pt plus 2pt minus 2pt}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\setlist{nolistsep}
+
+% tune the spacing between bullet points in here
+\setlist[itemize]{leftmargin=5mm, itemsep=2pt, topsep=0pt, partopsep=1pt}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+\newcommand{\plus}{\raisebox{.4\height}{\scalebox{.6}{+}}}
+
+%-------------------------
+% Custom commands
+
+\newcommand{\bedgeItem}[2]{#1 \space #2}
+\newcommand{\latex}{\LaTeX\xspace}
+
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \centerline{\textbf{{\LARGE Your Name}}} \\
+  \centerline{
+    \faPhone \space +852 2456 7111
+    $\mid$ \bedgeItem{\faEnvelope}{\href{mailto:ITSC@connect.ust.hk}{ITSC@connect.ust.hk}}
+    $\mid$ \bedgeItem{\faGithubSquare}{\href{https://github.com/github_id}{Github ID}}
+    $\mid$ \bedgeItem{\faLinkedinSquare}{\href{https://www.linkedin.com/in/Linkedin Name/}{Linkedin Name}}
+  }
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+
+\textbf{Hong Kong University of Science and Technology} \hfill Sep 2019 - May 2023(Expected)\\
+Bachelor of Engineering in Job Seeker  \hfill GPA: -9.99 / 4.3\\
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+\textbf{I WANT TO WORK AT JANE STREET COMPANY} \hfill Hong Kong\\
+\emph{Risk Management Team Software Engineer (Summer Intern)} \hfill Jun - July 2022\\
+\begin{itemize}
+  \item One-line long sentence to describle what you did on this role (I try to make this line fit the page widthhhhhhhhhhhhhhh).
+  \item One-line long sentence to describle what you did on this role (I try to make this line fit the page widthhhhhhhhhhhhhhh).
+  \item One-line long sentence to describle what you did on this role (I try to make this line fit the page widthhhhhhhhhhhhhhh).
+  \item One-line long sentence to describle what you did on this role (I try to make this line fit the page widthhhhhhhhhhhhhhh).
+\end{itemize}
+%-----------Extra-Curricular Activities-----------------
+\section{Leadership and Extra-Curricular Activities}
+\textbf{HKUST Robotics Team}\\
+\emph{Head of Software Engineering Department}  \hfill Dec 2019 - Aug 2021\\
+\begin{itemize}
+  \item I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo.
+  \item I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo.
+  \item I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo.
+  \item I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo. I love Tim Woo.    % \item Hosted tutorials and prepared training materials for new HKUST Robotics Team members on topics including C/C\plus{}\plus{} Programming, embedded systems, control systems, and RTOS.
+\end{itemize}
+
+\section{Projects}
+\textbf{Cloud NSFW Detection} $\mid$ Cloud Computing \& FaaS \& Machine Learning \hfill April - May 2022\\
+\begin{itemize}
+  \item Making a NSFW project can focus the prof and TAs to watch NSFW content HAAAAAAAAAAAAAAAAAAAAA.
+  \item Making a NSFW project can focus the prof and TAs to watch NSFW content HAAAAAAAAAAAAAAAAAAAAA.
+\end{itemize}
+\textbf{3D Model Real-time Rendering Animator} $\mid$ C\plus{}\plus{} \& Computer Graphics \& OpenGL \hfill Feb - May 2022\\
+\begin{itemize}
+  \item CK Tang Please give me A+ CK Tang Please give me A+ CK Tang Please give me A+ CK Tang Please give me A+.
+  \item CK Tang Please give me A+ CK Tang Please give me A+ CK Tang Please give me A+ CK Tang Please give me A+.
+\end{itemize}
+\textbf{Archery Robot} $\mid$ Embedded C Programming \& STM32 \hfill Feb - Jun 2021\\
+\begin{itemize}
+  \item Come join HKUST Robotics Team Come join HKUST Robotics Team Come join HKUST Robotics Team.
+  \item Come join HKUST Robotics Team Come join HKUST Robotics Team Come join HKUST Robotics Team.
+\end{itemize}
+%-----------Awards-----------------
+\section{Awards}
+\textbf{CodeIT Suisse: }$-1^{th}$ out of 41 teams \hfill 2021\\
+\begin{itemize}
+  \item What is the competition about? Put the description in hereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.
+  \item Also your role in the competition. Ps I dun put ABU Robocon since I mentioned it in HKUST Robotics Team section.
+\end{itemize}
+%-----------Technical Skills-----------------
+\section{Technical Skills}
+\begin{itemize}
+  \item \textbf{Computing Language}: Extensive Experience - \emph{C, C\plus{}\plus{}}. Proficient - \emph{languagesssssssssssssssssssss}.
+  \item \textbf{Programming Framework}: Extensive Experience - \emph{Who cares do you know ROS}. Proficient - \emph{Put something that can be applied in finance industries}.
+  \item \textbf{Development Tools}: Extensive Experience - \emph{whatever, dun put trivial things like VSCode}.
+  \item \textbf{Language}: Native - \emph{Cantonese}. Fluent - \emph{English} and \emph{Mandarin}.
+  \item \textbf{Interests}: Somethings besides from programming.
+\end{itemize}
+%-------------------------------------------
+\end{document}
